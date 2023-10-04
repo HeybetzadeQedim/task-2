@@ -195,10 +195,7 @@ h1 {
     font-size: 10px;
     width: 212px;
   }
-  .image-box img:first-child {
-    width: 142px;
-    height: 166px;
-  }
+
   .flex-container {
     flex-direction: column;
   }

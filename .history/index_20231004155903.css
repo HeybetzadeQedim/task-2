@@ -15,12 +15,6 @@
   display: flex;
   margin-top: 100px;
 }
-.image-container li {
-  margin-right: 15px;
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-}
 .image-container img:first-child {
   width: 22px;
   height: 21px;
@@ -35,7 +29,7 @@
 }
 .image-container p {
   color: #000;
-  margin-left: 10px;
+  margin-right: 20px;
   margin-top: 4px;
   font-family: Roboto;
   font-size: 20px;
@@ -43,14 +37,10 @@
   font-weight: 400;
   line-height: 115%;
 }
-.flex-container {
-  display: flex;
-  justify-content: space-between;
-}
 h1 {
-  width: 628px;
-  margin-top: 29px;
   color: #000;
+  margin-top: 29px;
+  width: 628px;
   font-family: Roboto Slab;
   font-size: 80px;
   font-style: normal;
@@ -58,8 +48,8 @@ h1 {
   line-height: 101.385%;
 }
 .text-container p {
-  width: 414px;
   color: #000;
+  width: 414px;
   font-family: Roboto;
   font-size: 20px;
   font-style: normal;
@@ -70,14 +60,12 @@ h1 {
 .image-box img:first-child {
   width: 304px;
   height: 356px;
-  /* margin-left: 140px; */
+  margin-left: 140px;
 }
 .box {
   width: 484px;
-  /* height: 200px; */
-  /* margin: 87px 0 173px 409px; */
-  margin: auto;
-  margin-top: 87px;
+  height: 200px;
+  margin: 87px 0 173px 409px;
   border-radius: 5px;
   background: #1e4681;
   padding: 19px 27px 68px 26px;
@@ -104,13 +92,13 @@ h1 {
 /* tablet style */
 @media screen and (max-width: 1024px) {
   .main-container {
-    padding: 22px 0 70px 100px;
+    padding: 22px 0 70px 100px ;
   }
   .main-container img:first-child {
     width: 64.867px;
     height: 38.225px;
   }
-  .main-container .image-container {
+  .image-container {
     margin-top: 56px;
   }
   .image-container img:first-child {
@@ -134,7 +122,6 @@ h1 {
   }
   .text-container p {
     font-size: 12px;
-    width: 264px;
   }
   .image-box img:first-child {
     width: 176px;
@@ -142,10 +129,10 @@ h1 {
   }
   .box {
     width: 280px;
-    /* height: 116px; */
+    height: 116px;
     border-radius: 3px;
-    /* margin: 61px 0 100px 252px; */
-    padding: 11px 16px 4px 15px;
+    margin: 61px 0 100px 252px;
+    padding: 11px 16px 4px 15px ;
   }
   .box p:first-child {
     width: 249px;
@@ -154,10 +141,6 @@ h1 {
   .box p:last-child {
     font-size: 12px;
     margin-top: 9px;
-  }
-  .flex-container img {
-    width: 176.067px;
-    height: 206.183px;
   }
 }
 /* mobile style */
@@ -213,11 +196,5 @@ h1 {
   }
   .box p:last-child {
     font-size: 10px;
-  }
-  .flex-container img {
-    width: 141.656px;
-    height: 165.886px;
-    margin-left: auto;
-    display: block;
   }
 }
